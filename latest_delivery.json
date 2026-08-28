@@ -1,8 +1,8 @@
 {
-  "path": "deliveries/2026-08-28/delivery_010.json",
-  "latest_delivery": "deliveries/2026-08-28/delivery_010.json",
+  "path": "deliveries/2026-08-28/delivery_011.json",
+  "latest_delivery": "deliveries/2026-08-28/delivery_011.json",
   "session_date": "2026-08-28",
-  "generated_at_et": "2026-08-28T06:26:02.908-04:00",
+  "generated_at_et": "2026-08-28T06:31:49.832-04:00",
   "source": "yahoo_finance",
   "schema_version": "chatgpt_tsla_1min_v2",
   "csv_sha256": "b7ebe78fbf66ba3fc591ce401296c18b253dd8787c0411561c7974d224cd9733",
