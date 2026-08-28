@@ -1,0 +1,13 @@
+{
+  "session_date": "2026-08-28",
+  "generated_at_et": "2026-08-27T23:29:54.755-04:00",
+  "csv_sha256": "8b7ed10d77a27467c9eb98750ee2accc97cbcf69c69f55f2d0079f2869ea81ae",
+  "row_count": 0,
+  "first_datetime_et": null,
+  "last_datetime_et": null,
+  "primary_repository": "senthilaimhighrealty/tsla-chatgpt-primary",
+  "primary_commit_sha": "8c5fff8f74a81b09664e7bf7f0b809964353fe24",
+  "dr_repository": "senthilaimhighrealty/tsla-chatgpt-dr",
+  "dr_commit_sha": "3e412ebe1039083c59a07f3a83f2c53aa155f6da",
+  "path": "tsla_1min.csv"
+}
