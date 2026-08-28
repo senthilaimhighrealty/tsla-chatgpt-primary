@@ -1,0 +1,1 @@
+Public TSLA 1-minute market-price bars for ChatGPT. This repository contains only market data (OHLCV candles) plus a small manifest and delivery pointers. It does not contain account information, positions, orders, balances, P&L, names, or credentials.
