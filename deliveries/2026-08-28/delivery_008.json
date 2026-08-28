@@ -1,0 +1,20 @@
+{
+  "session_date": "2026-08-28",
+  "generated_at_et": "2026-08-28T04:36:12.212-04:00",
+  "source": "yahoo_finance",
+  "schema_version": "chatgpt_tsla_1min_v2",
+  "symbol": "TSLA",
+  "granularity": "1m",
+  "csv_sha256": "cb6b7477b37ce7ec0ba3a59264f574f9bbe9254a2a62f999d5364d1fff27eb1a",
+  "row_count": 22,
+  "first_datetime_et": "2026-08-28T04:00:00-04:00",
+  "last_datetime_et": "2026-08-28T04:21:00-04:00",
+  "primary_repository": "senthilaimhighrealty/tsla-chatgpt-primary",
+  "primary_commit_sha": "5f8c4da8653c6fedaeeb2b2de6315f90738da815",
+  "dr_repository": "senthilaimhighrealty/tsla-chatgpt-dr",
+  "dr_commit_sha": "e70edde33b1320266dbee0da9cfb3327dcfec9fe",
+  "path": "tsla_1min.csv",
+  "manifest_path": "manifest.json",
+  "extended_hours_requested": true,
+  "final": false
+}
