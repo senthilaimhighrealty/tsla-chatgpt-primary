@@ -1,0 +1,19 @@
+{
+  "schema_version": "chatgpt_tsla_1min_v1",
+  "symbol": "TSLA",
+  "timezone": "America/New_York",
+  "session_date": "2026-08-27",
+  "generated_at_et": "2026-08-27T23:29:54.755-04:00",
+  "granularity": "1m",
+  "row_count": 756,
+  "first_datetime_et": "2026-08-27T07:00:00-04:00",
+  "last_datetime_et": "2026-08-27T19:58:00-04:00",
+  "sha256": "9ac947f95e30e32f59ab77574862677143bb57a9fcc27d0f61639789131bdf64",
+  "has_overnight": false,
+  "has_premarket": true,
+  "has_regular": true,
+  "has_afterhours": true,
+  "source_status": "ok",
+  "complete_through_et": "2026-08-27T19:58:00-04:00",
+  "final": true
+}
