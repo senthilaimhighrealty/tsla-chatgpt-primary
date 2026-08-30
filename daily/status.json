@@ -1,13 +1,14 @@
 {
   "schema_version": "chatgpt_tsla_1min_v2_daily_status",
-  "generated_at_et": "2026-08-30T19:02:50.220-04:00",
-  "source": "yahoo_finance",
+  "generated_at_et": "2026-08-30T19:17:41.886-04:00",
+  "source": "schwab_price_history",
   "symbol": "TSLA",
   "timezone": "America/New_York",
   "first_date": "2026-08-25",
   "through_date": "2026-08-30",
   "notes": [
-    "2026-08-28 closeout: last successful Yahoo PROD publish 14:35 ET (616 rows, last bar 14:17, final=false, sha256 241d94ff). Yahoo HTTP 429 from ~13:14 ET; last python collect in logs 14:46 ET FAIL. 8:00 PM scheduler did fire (~8:08 PM ET) but automations were usage_limit/resource_exhausted so no new Yahoo fetch ran. Not missing exchange bars."
+    "2026-08-28 closeout: last successful Yahoo PROD publish 14:35 ET (616 rows, last bar 14:17, final=false, sha256 241d94ff). Yahoo HTTP 429 from ~13:14 ET; last python collect in logs 14:46 ET FAIL. 8:00 PM scheduler did fire (~8:08 PM ET) but automations were usage_limit/resource_exhausted so no new Yahoo fetch ran. Not missing exchange bars.",
+    "2026-08-30: ChatGPT 1-min PROD/DR source going forward is Schwab price_history (needExtendedHoursData=true). Live truncate-load and 8 PM daily archives will be Schwab-sourced. Historical daily/2026-08-25 through daily/2026-08-28 stay Yahoo-sourced and were not rewritten."
   ],
   "sessions": {
     "2026-08-25": {
@@ -48,8 +49,8 @@
       "row_count": 958,
       "last_datetime_et": "2026-08-28T19:59:00-04:00",
       "csv_sha256": "7b89b503c2c8914c0d90e12ab10ad3a7675a36de03f36644e878a3f267983027",
-      "last_real_regular_time_et": "15:59:00",
-      "last_afterhours_time_et": "19:59:00"
+      "source": "yahoo_finance",
+      "schema_version": "chatgpt_tsla_1min_v2"
     },
     "2026-08-29": {
       "state": "no_session",
