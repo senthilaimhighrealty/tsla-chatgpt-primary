@@ -1,14 +1,31 @@
 {
   "schema_version": "chatgpt_tsla_1min_v2_daily_status",
-  "generated_at_et": "2026-08-30T19:17:41.886-04:00",
+  "generated_at_et": "2026-08-30T19:52:33.238-04:00",
   "source": "schwab_price_history",
   "symbol": "TSLA",
   "timezone": "America/New_York",
   "first_date": "2026-08-25",
   "through_date": "2026-08-30",
+  "retention": {
+    "keep_trading_days": 5,
+    "keep_states": [
+      "final",
+      "gapped"
+    ],
+    "purged_state": "purged",
+    "valid_states": [
+      "failed",
+      "final",
+      "gapped",
+      "missing",
+      "no_session",
+      "purged"
+    ]
+  },
   "notes": [
     "2026-08-28 closeout: last successful Yahoo PROD publish 14:35 ET (616 rows, last bar 14:17, final=false, sha256 241d94ff). Yahoo HTTP 429 from ~13:14 ET; last python collect in logs 14:46 ET FAIL. 8:00 PM scheduler did fire (~8:08 PM ET) but automations were usage_limit/resource_exhausted so no new Yahoo fetch ran. Not missing exchange bars.",
-    "2026-08-30: ChatGPT 1-min PROD/DR source going forward is Schwab price_history (needExtendedHoursData=true). Live truncate-load and 8 PM daily archives will be Schwab-sourced. Historical daily/2026-08-25 through daily/2026-08-28 stay Yahoo-sourced and were not rewritten."
+    "2026-08-30: ChatGPT 1-min PROD/DR source going forward is Schwab price_history (needExtendedHoursData=true). Live truncate-load and 8 PM daily archives will be Schwab-sourced. Historical daily/2026-08-25 through daily/2026-08-28 stay Yahoo-sourced and were not rewritten.",
+    "2026-08-30: 5-trading-day retention on daily/YYYY-MM-DD archives. After each 8 PM closeout writes the new archive, keep only the 5 most recent final or gapped trading-day folders on primary and DR. Older folders (csv + manifest) are deleted. status.json keeps the date key with state=purged (distinct from missing/failed/no_session/final/gapped). Live root tsla_1min.csv, tsla-public, and coach are not touched. 2026-08-25 through 2026-08-28 remain (4 archives; nothing to purge yet)."
   ],
   "sessions": {
     "2026-08-25": {
