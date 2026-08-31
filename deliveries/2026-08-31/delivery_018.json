@@ -1,0 +1,20 @@
+{
+  "session_date": "2026-08-31",
+  "generated_at_et": "2026-08-31T15:32:04.999-04:00",
+  "source": "schwab_price_history",
+  "schema_version": "chatgpt_tsla_1min_v2",
+  "symbol": "TSLA",
+  "granularity": "1m",
+  "csv_sha256": "8dc16051aa067a65da6baf29763d8abb1f45ca6db35d97a242ec2b6213301ddb",
+  "row_count": 510,
+  "first_datetime_et": "2026-08-31T07:00:00-04:00",
+  "last_datetime_et": "2026-08-31T15:31:00-04:00",
+  "primary_repository": "senthilaimhighrealty/tsla-chatgpt-primary",
+  "primary_commit_sha": "901373f2c0573e009de8d26b840741aae35b7400",
+  "dr_repository": "senthilaimhighrealty/tsla-chatgpt-dr",
+  "dr_commit_sha": "a994709b8c7603535f5739291d4181aad13fe6dc",
+  "path": "tsla_1min.csv",
+  "manifest_path": "manifest.json",
+  "extended_hours_requested": true,
+  "final": false
+}
