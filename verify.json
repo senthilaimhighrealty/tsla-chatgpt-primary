@@ -1,0 +1,13 @@
+{
+  "job": "one_min_live",
+  "newest_slot": "tsla_1min.csv",
+  "generated_at": "2026-08-31T19:10:56.438-04:00",
+  "block_sha256": "cd9c2d2a12080178de7e7b3dc40c989719a70bb72472786fdcf61e4b52262955",
+  "payload_sha256": "cd9c2d2a12080178de7e7b3dc40c989719a70bb72472786fdcf61e4b52262955",
+  "account_value": null,
+  "pnl_day": null,
+  "spot": 367.06,
+  "block_sha256_is_csv": true,
+  "note": "block_sha256 equals payload_sha256 of the csv (1-min has no SNAP block)",
+  "session_date": "2026-08-31"
+}
