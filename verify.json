@@ -1,6 +1,7 @@
 {
   "job": "one_min_live",
   "newest_slot": "tsla_1min.csv",
+  "newest_slot_url": "https://raw.githubusercontent.com/senthilaimhighrealty/tsla-chatgpt-primary/main/tsla_1min.csv",
   "generated_at": "2026-08-31T19:35:56.364-04:00",
   "block_sha256": "28b21d883799be1f62cfedeacfe3173582dbb614cec242f441fb1683ea2286bc",
   "payload_sha256": "28b21d883799be1f62cfedeacfe3173582dbb614cec242f441fb1683ea2286bc",
