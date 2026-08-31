@@ -1,8 +1,8 @@
 {
-  "path": "deliveries/2026-08-31/delivery_001.json",
-  "latest_delivery": "deliveries/2026-08-31/delivery_001.json",
+  "path": "deliveries/2026-08-31/delivery_002.json",
+  "latest_delivery": "deliveries/2026-08-31/delivery_002.json",
   "session_date": "2026-08-31",
-  "generated_at_et": "2026-08-31T04:44:28.375-04:00",
+  "generated_at_et": "2026-08-31T04:52:10.054-04:00",
   "source": "schwab_price_history",
   "schema_version": "chatgpt_tsla_1min_v2",
   "csv_sha256": "8b7ed10d77a27467c9eb98750ee2accc97cbcf69c69f55f2d0079f2869ea81ae",
