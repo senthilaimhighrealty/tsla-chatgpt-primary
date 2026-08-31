@@ -1,11 +1,11 @@
 {
   "schema_version": "chatgpt_tsla_1min_v2_daily_status",
-  "generated_at_et": "2026-08-30T19:52:33.238-04:00",
+  "generated_at_et": "2026-08-31T04:44:49.009-04:00",
   "source": "schwab_price_history",
   "symbol": "TSLA",
   "timezone": "America/New_York",
   "first_date": "2026-08-25",
-  "through_date": "2026-08-30",
+  "through_date": "2026-08-31",
   "retention": {
     "keep_trading_days": 5,
     "keep_states": [
@@ -76,6 +76,11 @@
     "2026-08-30": {
       "state": "no_session",
       "reason": "weekend"
+    },
+    "2026-08-31": {
+      "path": "daily/2026-08-31/tsla_1min.csv",
+      "state": "missing",
+      "reason": "no daily folder yet"
     }
   }
 }
