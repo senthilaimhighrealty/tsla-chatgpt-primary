@@ -1,14 +1,14 @@
 {
   "job": "closeout",
-  "newest_slot": "daily/2026-08-31/tsla_1min.csv",
-  "newest_slot_url": "https://raw.githubusercontent.com/senthilaimhighrealty/tsla-chatgpt-primary/main/daily/2026-08-31/tsla_1min.csv",
-  "generated_at": "2026-08-31T20:16:43.514-04:00",
-  "block_sha256": "1d1dca6340bd9e5fee148f78eeebc7a8995ff39760f732fe7fe4527f58b84ce7",
-  "payload_sha256": "1d1dca6340bd9e5fee148f78eeebc7a8995ff39760f732fe7fe4527f58b84ce7",
+  "newest_slot": "daily/2026-09-01/tsla_1min.csv",
+  "newest_slot_url": "https://raw.githubusercontent.com/senthilaimhighrealty/tsla-chatgpt-primary/main/daily/2026-09-01/tsla_1min.csv",
+  "generated_at": "2026-09-01T20:14:46.473-04:00",
+  "block_sha256": "cc41b82a74ca946b2dccd4c3886065ad736dff2fc205c42154fc321cfadb2ff1",
+  "payload_sha256": "cc41b82a74ca946b2dccd4c3886065ad736dff2fc205c42154fc321cfadb2ff1",
   "account_value": null,
   "pnl_day": null,
-  "spot": 367.31,
+  "spot": 355.9,
   "block_sha256_is_csv": true,
   "note": "block_sha256 equals payload_sha256 of the csv (1-min has no SNAP block)",
-  "session_date": "2026-08-31"
+  "session_date": "2026-09-01"
 }
