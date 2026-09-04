@@ -1,11 +1,11 @@
 {
   "schema_version": "chatgpt_tsla_1min_v2_daily_status",
-  "generated_at_et": "2026-09-02T20:16:22.463-04:00",
+  "generated_at_et": "2026-09-03T20:27:58.281-04:00",
   "source": "schwab_price_history",
   "symbol": "TSLA",
   "timezone": "America/New_York",
   "first_date": "2026-08-25",
-  "through_date": "2026-09-02",
+  "through_date": "2026-09-03",
   "retention": {
     "keep_trading_days": 5,
     "keep_states": [
@@ -101,9 +101,14 @@
       "schema_version": "chatgpt_tsla_1min_v2"
     },
     "2026-09-02": {
-      "state": "failed",
       "path": "daily/2026-09-02/tsla_1min.csv",
-      "reason": "8 PM closeout Schwab price_history fetch failed (refresh token expired / REAUTH REQUIRED); bars not invented"
+      "state": "failed",
+      "reason": "weekday session with no daily folder after closeout"
+    },
+    "2026-09-03": {
+      "state": "failed",
+      "path": "daily/2026-09-03/tsla_1min.csv",
+      "reason": "8 PM closeout Schwab price_history fetch failed; REAUTH REQUIRED; bars not invented"
     }
   }
 }
